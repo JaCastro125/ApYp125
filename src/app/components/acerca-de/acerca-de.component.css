@@ -11,7 +11,37 @@ div{
     font-weight: bold;
 }
 /*foto de perfil*/
-@media (min-width: 901px){
+@media (min-width: 2561px){
+    #fotoPerfil{
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px 3px grey;
+        left: 2em;
+        top: 44em;
+    }
+}
+@media (min-width: 1441px) and (max-width: 2560px){
+    #fotoPerfil{
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px 3px grey;
+        left: 2em;
+        top: 42em;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px){
+    #fotoPerfil{
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px 3px grey;
+        left: 2em;
+        top: 28em;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
     #fotoPerfil{
         position:absolute;
         width: 15%;
@@ -21,7 +51,7 @@ div{
         top: 22em;
     }
 }
-@media (min-width: 577px) and (max-width: 900px){
+@media (min-width: 426px) and (max-width: 768px){
     #fotoPerfil{
         position:absolute;
         width: 15%;
@@ -31,14 +61,34 @@ div{
         top: 18em;
     }
 }
-@media (max-width: 576px){
+@media (min-width: 376px) and (max-width: 425px){
+    #fotoPerfil{
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px 3px grey;
+        left: 2em;
+        top: 12em;
+    }
+}
+@media (min-width: 321px) and (max-width: 375px){
+    #fotoPerfil{
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px 3px grey;
+        left: 2em;
+        top: 11em;
+    }
+}
+@media (max-width: 320px){
     #fotoPerfil{
         position:absolute;
         width: 20%;
         border-radius: 35%;
         box-shadow: 3px 3px 3px 3px grey;
         left: 1em;
-        top: 10em;
+        top: 9em;
     }
 }
 #datos{
