@@ -1,3 +1,29 @@
 #logoap{
     width: 200px;
 }
+img{
+    width: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.redes{
+    padding-right: 1em;
+}
+a{
+    padding-right: 5px;
+}
+.btn{
+    border-width: medium;
+}
+@media (max-width: 412px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
