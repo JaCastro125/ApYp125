@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { persona } from '../model/persona.model';
+import { Persona } from '../model/persona.model';
 
 @Injectable({
   providedIn: 'root'
@@ -9,9 +9,14 @@ import { persona } from '../model/persona.model';
 export class PersonaService {
   URL = 'http://localhost:8080/personas/';
 
-  constructor(private http: HttpClient) { }
+  constructor(private httpClient: HttpClient) { }
 
-  public getPersona(): Observable<persona>{
-    return this.http.get<persona>(this.URL+'traer/perfil');
+  public getPersona(): Observable<Persona>{
+    return this.httpClient.get<Persona>(this.URL + 'lista');
+    
   }
 }
+
+console.log();
+
+

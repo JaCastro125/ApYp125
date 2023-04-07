@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Experiencia } from 'src/app/model/experiencia';
-import { SExperienciaService } from 'src/app/service/s-experiencia.service';
+import { SExperienciaService } from 'src/app/service/sexperiencia.service';
 import { TokenService } from 'src/app/service/token.service';
 
 @Component({
@@ -40,3 +40,4 @@ export class ExperienciaComponent implements OnInit {
     }
   }
 }
+console.log();

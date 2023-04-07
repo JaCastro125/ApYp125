@@ -17,8 +17,7 @@ export class LogoAPComponent implements OnInit{
       this.isLogged = true;
     }else{
       this.isLogged = false;
-    }
-    
+    }    
   }
 
   onLogOut():void{
