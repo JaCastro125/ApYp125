@@ -15,9 +15,9 @@ export class SExperienciaService {
     return this.httpClient.get<Experiencia[]>(this.expURL + 'lista');
   }
 
-  public details(id: number): Observable<Experiencia>{
-    return this.httpClient.get<Experiencia>(this.expURL + `details/${id}`);
-  }
+  public detail(id: number): Observable<Experiencia>{
+    return this.httpClient.get<Experiencia>(this.expURL + `detail/${id}`);
+  } 
 
   public save(experiencia: Experiencia): Observable<any>{
     return this.httpClient.post<any>(this.expURL + 'create', experiencia);
@@ -30,5 +30,4 @@ export class SExperienciaService {
   public delete(id: number): Observable<any>{
     return this.httpClient.delete<any>(this.expURL + `delete/${id}`);
   }
-
 }
