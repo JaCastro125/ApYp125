@@ -16,7 +16,6 @@ export class TokenService {
   public setToken(token: string): void {
     window.sessionStorage.removeItem(TOKEN_KEY);
     window.sessionStorage.setItem(TOKEN_KEY, token);
-
   }
 
   public getToken(): string {
@@ -49,7 +48,6 @@ export class TokenService {
   
   public logOut(): void{
     window.sessionStorage.clear();
-  }
-  
+  } 
 }
 

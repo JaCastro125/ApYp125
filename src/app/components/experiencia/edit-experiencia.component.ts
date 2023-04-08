@@ -9,9 +9,11 @@ import { SExperienciaService } from 'src/app/service/sexperiencia.service';
   styleUrls: ['./edit-experiencia.component.css']
 })
 export class EditExperienciaComponent implements OnInit {
-  expLab: Experiencia = new Experiencia('', '');
+  expLab: Experiencia = null;
 
-  constructor(private sExperiencia: SExperienciaService, private activatedRouter: ActivatedRoute,
+  constructor(
+    private sExperiencia: SExperienciaService, 
+    private activatedRouter: ActivatedRoute,
     private router: Router) { }
 
   ngOnInit(): void {
