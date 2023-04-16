@@ -18,6 +18,5 @@ export class PersonaService {
   }
 }
 
-console.log();
 
 
